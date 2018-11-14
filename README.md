@@ -6,3 +6,7 @@ This application uses a SQLite database backend.
 By navigating to the home page, a cookie is stored with a unique id.  A record in the database is then created with a random text string.
 
 Navigating to the next page displays the string that was initially stored by the home page.  
+
+## SQLAlchemy
+The database is created using SQL Alchemy migrations.  This makes the application portable to any database backend.  
+
