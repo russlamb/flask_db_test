@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Your session id is {{ session_id }}</h1>
+    {% for t in session_text %}
+<div><p>{{ t }}</p></div>
+    {% endfor %}
+{% endblock %}

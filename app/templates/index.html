@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Your session id is {{ session_id }}</h1>
+    <a href="{{ url_for('show_my_text')}}">Show your Text</a>
+{% endblock %}
